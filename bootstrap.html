@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yousef Wael Ali</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-black">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/e2533023876439.5632a45cc17d8.jpg"
+            class="me-3 rounded-circle"
+            alt="pic"
+            height="40px"
+            width="40px" />
+        </a>
+        <a
+          class="navbar-brand text-light"
+          href="#"
+          style="
+            border-right: 1px solid #ccc;
+            padding-right: 10px;
+            font-weight: bold;
+          "
+          >Egypt</a
+        >
+        <button
+          class="navbar-toggler bg-secondary"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon btn-primary"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li
+              class="nav-item dropdown border border-primary rounded h-75 w-25">
+              <a
+                class="nav-link text-light dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                aria-expanded="false">
+                Trips</a
+              >
+              <ul class="dropdown-menu bg-white">
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >Cairo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >Alex</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider text-bg-primary" />
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >Luxor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >Aswan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >Sharm El Shikh</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >El Glala</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-primary bg-white" href="#"
+                    >more</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-light me-2" type="submit">
+              Search
+            </button>
+          </form>
+          <form class="d-flex">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              data-bs-whatever="@fat">
+              Open modal for @fat
+            </button>
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      New message
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label"
+                          >Recipient:</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="recipient-name" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="message-text" class="col-form-label"
+                          >Message:</label
+                        >
+                        <textarea
+                          class="form-control"
+                          id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Send message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////// -->
+    <div class="container-fluid p-0">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="active"
+            aria-current="true"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class=""></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+            class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              class="img-fluid"
+              alt="pic1" />
+            <div class="carousel-caption">
+              <h1>cairo</h1>
+              <a href="" class="btn btn-danger" target="_blank">Visit Us</a>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1594808815295-52034d585f56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              class="img-fluid"
+              alt="pic2" />
+            <div class="carousel-caption">
+              <h1>Alexandria</h1>
+              <a href="" class="btn btn-primary" target="_blank">Visit Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1609101111867-2e1fe1b2a6b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              class="d-block"
+              alt="pic3" />
+            <div class="carousel-caption">
+              <h1>cairo again</h1>
+              <a href="" class="btn btn-success" target="_blank">Visit Us</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1656755110385-63ba53fa10a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+              class="d-block"
+              alt="pic4" />
+            <div class="carousel-caption">
+              <h1>Ain sokhna</h1>
+              <a href="" class="btn btn-secondary" target="_blank">Visit Us</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div
+        class="card p-4 bg-dark text-white"
+        style="border-top-left-radius: 0; border-top-right-radius: 0">
+        <div class="card-body">
+          <h2 class="card-title">Welcome</h2>
+          <p class="card-text">
+            Are you planning to visit Egypt? We offer the ultimate tour in Egypt
+            ,covering Cario, Alex, From a one day trip to a 10 day dream
+            vacation, we will take care of all your needs. book hotels 24/7
+            Customer Service.
+          </p>
+          <a href="#" class="btn btn-primary mt-4">learn more</a>
+        </div>
+      </div>
+      <hr />
+      <h1 class="text-center text-light bg-secondary p-3 m-0">
+        Popular destinations in Egypt
+      </h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed btn-outline-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne">
+              Giza City
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              fugiat laboriosam repellat autem, numquam ea sequi vel quaerat non
+              sit alias facere tempore veritatis neque nemo earum maiores illum.
+              Iusto? Excepturi blanditiis animi ex eos unde. Numquam quidem
+              molestias facere minima earum necessitatibus corporis doloribus
+              possimus itaque voluptatum odio sed suscipit in tenetur inventore
+              omnis consectetur iste, accusamus natus debitis.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed btn-outline-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo">
+              Luxor City
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, suscipit quasi distinctio dolores nisi pariatur illum
+              odit consequuntur maiores nemo tempore tempora reprehenderit
+              voluptas, quae amet? Deleniti, rem quasi. Ullam! Incidunt, eum id.
+              Illum fuga commodi maiores voluptas, at voluptatum iste a aut
+              suscipit molestiae impedit. Molestiae nihil accusamus delectus
+              repellendus dolorum ipsam temporibus cupiditate magnam ab iste.
+              Dolorum, unde? Officia iure nostrum repellat dolorem reiciendis a
+              voluptate eum porro voluptatem mollitia necessitatibus, deserunt
+              quos eos asperiores fugiat nisi labore recusandae officiis eveniet
+              laboriosam eligendi culpa vero maxime beatae. Quae.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed btn-outline-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree">
+              Sinai Peninsula
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis soluta, eligendi ratione, magni sit eveniet
+              dignissimos debitis vitae dolor maxime quia illo libero aperiam
+              voluptate quasi aliquam sint fugit temporibus!
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h1 class="text-center text-light bg-secondary p-3 m-0">
+        Translate from arabic to english
+      </h1>
+      <div class="card bg-dark">
+        <div class="card-body">
+          <h4 class="text-light">
+            Write and translate
+            <a href="https://translate.google.com" target="_blank">HERE</a>
+          </h4>
+          <div
+            class="btn btn-sm btn-outline-light .btnbefo::before .btnbefo::after btnbefo"
+            id="copyfun">
+            copy
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">translate</label>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4" />
+      <div class="fixedimg fixedimg1"></div>
+      <h1 class="text-center text-light bg-secondary p-3 m-0">
+        Popular destinations in Egypt
+      </h1>
+      <!--  -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="box">
+              <img
+                src="https://priroda.club/uploads/posts/2022-06/1654148045_64-priroda-club-p-multinskie-ozyora-respublika-altai-priroda-70.jpg" />
+              <div class="box-content">
+                <h3 class="title">hey</h3>
+                <span class="post">Web designer</span>
+              </div>
+              <ul class="icon">
+                <li>
+                  <a href="#"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="box">
+              <img
+                src="https://onlinespb.ru/uploads/image-1690471876837.webp" />
+              <div class="box-content">
+                <h3 class="title">hey again</h3>
+                <span class="post">Web designer</span>
+              </div>
+              <ul class="icon">
+                <li>
+                  <a href="#"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="box">
+              <img
+                src="https://priroda.club/uploads/posts/2022-06/1654148045_64-priroda-club-p-multinskie-ozyora-respublika-altai-priroda-70.jpg" />
+              <div class="box-content">
+                <h3 class="title">yea you guessed it</h3>
+                <span class="post">HEY</span>
+              </div>
+              <ul class="icon">
+                <li>
+                  <a href="#"><i class="fa fa-search"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-link"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <hr />
+      <div class="fixedimg fixedimg1"></div>
+      <!--  -->
+      <div id="cards_landscape_wrap-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <a href="">
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg"
+                        alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Title 01</h6>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <a href="">
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_960_720.jpg"
+                        alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Title 02</h6>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <a href="">
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png"
+                        alt="" />
+                    </div>
+
+                    <div class="text-container">
+                      <h6>Title 03</h6>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+              <a href="">
+                <div class="card-flyer">
+                  <div class="text-box">
+                    <div class="image-box">
+                      <img
+                        src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg"
+                        alt="" />
+                    </div>
+                    <div class="text-container">
+                      <h6>Title 04</h6>
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+
+    <!-- ///////////////////////////////////////////////////// -->
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: black">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">YousefWael</h6>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+                quaerat voluptate sit numquam odio laudantium quo accusantium
+                unde eligendi at.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p>
+                <a class="text-white">Translate</a>
+              </p>
+              <p>
+                <a class="text-white">Hotels</a>
+              </p>
+              <p>
+                <a class="text-white">Travel</a>
+              </p>
+              <p>
+                <a class="text-white">Egypt</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Egypt</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 20 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 20 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+              <!-- Facebook -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #3b5998"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #55acee"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #dd4b39"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #ac2bac"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+
+              <!-- Linkedin -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #0082ca"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                class="btn btn-primary btn-floating m-1"
+                style="background-color: #333333"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: blue">
+        © 2023 Copyright:
+        <a class="text-white" href="">YousefWael</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
